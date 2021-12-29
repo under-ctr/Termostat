@@ -1,1 +1,0 @@
--w -s "c:\My_Designs\Proiect_automat\library.cfg"  -j "c:\My_Designs\Proiect_automat\Proiect\projlib.cfg"  -d "c:\My_Designs\Proiect_automat\Proiect\compile"   -work Proiect  -O3 -e 100 -2002 "c:\My_Designs\Proiect_automat\Proiect\src\afisor_bcd.vhd"
