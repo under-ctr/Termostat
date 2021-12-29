@@ -1,0 +1,42 @@
+Active-HDL 9.1.2353.4205  2020-05-22 22:11:45
+
+Elaboration top modules:
+Architecture                  se_poate(mama)
+
+
+-------------------------------------------------------------------------------------------
+Entity    | Architecture | Library | Info | Compiler Version         | Compilation Options
+-------------------------------------------------------------------------------------------
+mama      | se_poate     | Proiect |      | 9.1.2353.4205  (Windows) | -O3
+numarator | a            | proiect |      | 9.1.2353.4205  (Windows) | -O3
+rand_gen  | aloo         | proiect |      | 9.1.2353.4205  (Windows) | -O3
+minutes   | flux         | proiect |      | 9.1.2353.4205  (Windows) | -O3
+data      | ziua         | proiect |      | 9.1.2353.4205  (Windows) | -O3
+mux4g     | mux4g_arch   | proiect |      | 9.1.2353.4205  (Windows) | -O3
+bcd       | arch_afisaj  | proiect |      | 9.1.2353.4205  (Windows) | -O3
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+VHDL Package             | Library | Info | Compiler Version         | Compilation Options
+-------------------------------------------------------------------------------------------
+standard                 | std     |      |                          | <unavailable>
+TEXTIO                   | std     |      | 9.1.2353.4205  (Windows) |  -2008
+std_logic_1164           | ieee    |      | 9.1.2353.4205  (Windows) |  -2008
+MATH_REAL                | ieee    |      | 9.1.2353.4205  (Windows) | 
+std_logic_arith          | ieee    |      | 9.1.2353.4205  (Windows) | 
+STD_LOGIC_UNSIGNED       | ieee    |      | 9.1.2353.4205  (Windows) | 
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                  | Comment
+-------------------------------------------------------------------------------------------
+ieee                     | Standard IEEE packages library
+Proiect                  | None
+std                      | Standard VHDL library
+-------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+mama mama se_poate
+
+
+The performance of simulation is reduced. Version EDU Edition
