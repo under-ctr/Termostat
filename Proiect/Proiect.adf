@@ -1,0 +1,64 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=Proiect
+
+[Library]
+Proiect=.\Proiect.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Proiect=.
+Active_lib=
+
+[Files]
+/afisor_bcd.vhd=-1
+/minute_ore.vhd=-1
+/mux.vhd=-1
+/numarator.vhd=-1
+/temperatura.vhd=-1
+/data.vhd=-1
+/mama_proiect.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+/simulare.asdb=-1
+/simulare.awc=-1
+
+[Files.Data]
+.\src\afisor_bcd.vhd=VHDL Source Code
+.\src\minute_ore.vhd=VHDL Source Code
+.\src\mux.vhd=VHDL Source Code
+.\src\numarator.vhd=VHDL Source Code
+.\src\temperatura.vhd=VHDL Source Code
+.\src\data.vhd=VHDL Source Code
+.\src\mama_proiect.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+.\src\simulare.asdb=Accelerated Waveform File
+.\src\simulare.awc=Accelerated Waveform Configuration
+
